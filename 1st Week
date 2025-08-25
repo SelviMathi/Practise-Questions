@@ -1,0 +1,257 @@
+1.Even/Odd
+
+2.Positive/Negative
+
+3.Check whether given Num is divided by 3 & 5 or not
+
+4.Convert given days into completed year month and days
+Sample input
+400
+Sample Output
+Years:1
+Months:1
+Days:5
+
+5.MILEAGE REMUNERATION CALCULATOR
+Write a program that calculates mileage remuneration for a salesperson at a rate of Rs.25 per mile. Your program should interact with the user in this manner:
+Sample Output 1: (Explanation)
+Enter beginning odometer reading: 13505.2
+Enter ending odometer reading: 13810.6
+You traveled 305.4 miles. At Rs.25 per mile, your remuneration is Rs.7635
+Note: Display the output to two decimal places and round the remuneration value.
+Input format :
+The input consists of the values of the beginning and ending odometer reading separated by a space.
+
+Output format :
+The output prints the distance traveled and remuneration separated by a space.
+
+Sample test cases :
+Input 1 :
+13505.2 13810.6
+Output 1 :
+305.40 7635.00
+
+6.Max & Min of 2 numbers
+
+7.Max of 3 numbers
+
+8.Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
+Input format :
+The input consists of a number.
+Output format :
+The output prints whether the number is positive, negative or zero.
+
+Sample test cases :
+Input 1 :
+5
+Output 1 :
+5 is positive
+Input 2 :
+-8
+Output 2 :
+-8 is negative
+Input 3 :
+0
+Output 3 :
+0 is zero
+
+9.In a famous jewelry, customers are grouped according to age and gender.
+Group 1 Males under 25 years old
+Group 2 Females under 25 years old
+Group 3 Males between 25 - 45 years old
+Group 4 Females between 25 - 45 years old
+Group 5 All people over 45 years old.
+
+Babu wants to write a program to display the customer's group. Help Babu. 
+Note : Gender code for a male is 1 and for female is 2. Display Invalid if user enters other gender codes
+Input format :
+Age in first line
+Gender code in second line
+
+Output format :
+Group number
+
+Sample test cases :
+Input 1 :
+23
+1
+Output 1 :
+Group 1
+
+
+10.Sanjay got promotion and now he is a manager in the SBI Credit card division. There are basic eligibility criteria required to apply for any SBI Credit Cards.
+
+The age of the primary applicant must be between 21 years to 60 years.
+The age of the add-on card applicant must be above 18 years.
+Must be either salaried, self-employed, student, or retired pensioner.
+Primary applicants should have a stable income (gross) of up to Rs.3 lakh per year.
+
+Accept required inputs from the user, Write a program to check if the person meets the bank’s eligibility criteria.
+
+Input format :
+First line of input is age of the primary applicant
+
+Second line of input is age of the add-on card applicant
+
+Third line of input is employment type code (1 for salaried, 2 self-employed,3 for student, and 4 for retired pensioner)
+
+Fourth line of input is income
+
+Output format :
+
+Eligible / Not Eligible as shown in sample output.
+
+Refer sample output for exact text and format
+
+Code constraints :
+21<=Age of the primary applicant <=60 years
+
+Age of the add-on card applicant>=18 years
+
+1<=Employee code <=4 (Salaried =1, Self-employed=2, Student=3, Retired pensioner=4)
+
+ 
+
+Sample test cases :
+Input 1 :
+45
+20
+2
+300000
+Output 1 :
+Yes. You are eligible for SBI credit cards
+Input 2 :
+45
+15
+2
+300000
+Output 2 :
+No. You are not eligible for SBI credit cards
+
+11.Kalyani Jewellers has planned to build a new showroom in Coimbatore city. They have selected the area to build the showroom and it is in a triangle shape. Ravi, a civil engineer from VIP construction is the in-charge of this project. Ragavan, founder of VIP construction asked Ravi to find the exact shape of the selected area. Help Ravi to find the exact triangle shape.
+Equilateral Triangle - If all sides are equal
+Isosceles Triangle - If any two sides equal
+Scalene Triangle - No sides are equal
+Input format :
+Sides of the triangle in the separate lines
+Output format :
+The output prints the type of triangle.
+
+Sample test cases :
+Input 1 :
+18
+18
+18
+Output 1 :
+Equilateral Triangle
+Input 2 :
+12
+25
+15
+Output 2 :
+Scalene Triangle
+Input 3 :
+52
+52
+323
+Output 3 :
+Isosceles Triangle
+
+12.Descending order of 4 numbers
+
+13.You are given a single character. Write a program that determines whether the character is an alphabet (letter), a digit, or a special character
+
+Sample input 1
+A
+Sample output 1
+alphabet
+
+14.Display even numbes between range inclusive of both start and end.
+
+15.Sum of even numbers between 1 to given number
+
+16.Write a program that takes the number N and finds the sum of odd and even numbers from 1 to N.
+
+Input format :
+The input consists of the value of n.
+
+Output format :
+The output prints the sum of odd numbers and the sum of even numbers separated by a space.
+
+Sample test cases :
+Input 1 :
+10
+Output 1 :
+25 30
+Input 2 :
+15
+Output 2 :
+64 56
+
+17.Write a program to find the factorial of the given number.
+
+Input format :
+The input consists of a number.
+
+Output format :
+The output prints the factorial of the given number.
+
+Sample test cases :
+Input 1 :
+5
+Output 1 :
+120
+Input 2 :
+-7
+Output 2 :
+Error! Factorial of a negative number doesn't exist.
+
+18.Print the digits of a given number from right to left
+
+19.Write a program to accept an integer range and print the sum of number that are divisible by either 3 or 5
+
+20.Count of the digits in number
+
+21.Sum of the digits in number
+
+22.Find whether the given number is Harshad Number
+
+Harshad Number : if the number is divisible by sum of digits of the number
+
+
+23.Perfect number or not
+
+24.Prime or not
+
+25.Perfect square or not
+
+26.Fibaonacci Series
+
+27.Sanjay, the Manager of "The Chennai silks" decided to give special Diwali gifts to their customers. He planned to give their different gifts to the customer based on age. Write a suitable program to count the number of customers in each category as per the below information.
+
+
+
+ Age
+0-5 baby
+6-17 school
+18 above adult
+
+Input format :
+Number of person in first line(N).
+
+Age of each person(N) in second line.
+
+Output format :
+Category wise count as shown in the sample output.
+
+Code constraints :
+Age>=0
+
+Sample test cases :
+Input 1 :
+15
+2 5 9 12 16 19 23 26 30 33 37 40 44 47 51
+Output 1 :
+Baby: 2
+Attending school: 3
+Adult: 10
