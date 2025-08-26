@@ -1,257 +1,467 @@
-1.Even/Odd
+Q1. Even / Odd (Easy)
+Write a program to check whether a number is Even or Odd.
+Input format :
+The input consists of an integer.
+Output format :
+The output prints "Even" or "Odd".
+Sample test cases :
+Input :
+4
+Output :
+Even
+Input :
+7
+Output :
+Odd
+****************************************************************************************
+Q2. Positive / Negative (Easy)
+Write a program to check whether a number is Positive, Negative, or Zero.
+Input format :
+The input consists of an integer.
+Output format :
+The output prints whether the number is "Positive", "Negative" or "Zero".
+Sample test cases :
+Input :
+5
+Output :
+Positive
+Input :
+-3
+Output :
+Negative
+Input :
+0
+Output :
+Zero
 
-2.Positive/Negative
+****************************************************************************************
+Q3. Divisible by 3 and 5 (Easy)
+Check whether the given number is divisible by both 3 and 5.
+Input format :
+The input consists of an integer.
+Output format :
+The output prints "Yes" if divisible, otherwise "No".
+Sample test cases :
+Input :
+15
+Output :
+Yes
+Input :
+7
+Output :
+No
 
-3.Check whether given Num is divided by 3 & 5 or not
-
-4.Convert given days into completed year month and days
-Sample input
+****************************************************************************************
+Q4. Convert Days into Years, Months, Days (Medium)
+Convert the given number of days into completed years, months, and remaining days. Assume 1
+year = 365 days, 1 month = 30 days.
+Input format :
+The input consists of an integer (days).
+Output format :
+The output prints completed years, months, and days.
+Sample test cases :
+Input :
 400
-Sample Output
-Years:1
-Months:1
-Days:5
+Output :
+Years: 1
+Months: 1
+Days: 5
 
-5.MILEAGE REMUNERATION CALCULATOR
-Write a program that calculates mileage remuneration for a salesperson at a rate of Rs.25 per mile. Your program should interact with the user in this manner:
-Sample Output 1: (Explanation)
+****************************************************************************************
+Q5. Mileage Remuneration Calculator (Medium)
+Write a program that calculates mileage remuneration for a salesperson at a rate of Rs.25 per mile.
+Your program should interact with the user in this manner:
 Enter beginning odometer reading: 13505.2
 Enter ending odometer reading: 13810.6
 You traveled 305.4 miles. At Rs.25 per mile, your remuneration is Rs.7635
 Note: Display the output to two decimal places and round the remuneration value.
 Input format :
-The input consists of the values of the beginning and ending odometer reading separated by a space.
-
+The input consists of the values of the beginning and ending odometer reading separated by a
+space.
 Output format :
 The output prints the distance traveled and remuneration separated by a space.
-
 Sample test cases :
-Input 1 :
+Input :
 13505.2 13810.6
-Output 1 :
+Output :
 305.40 7635.00
 
-6.Max & Min of 2 numbers
+****************************************************************************************
+Q6. Max & Min of 2 Numbers (Easy)
+Find the maximum and minimum of two numbers.
+Input format :
+Two integers separated by a space.
+Output format :
+Maximum and minimum value.
+Sample test cases :
+Input :
+5 9
+Output :
+Max=9 Min=5
+Input :
+12 7
+Output :
+Max=12 Min=7
 
-7.Max of 3 numbers
+****************************************************************************************
+Q7. Max of 3 Numbers (Easy)
+Find the maximum of three numbers.
+Input format :
+Three integers separated by spaces.
+Output format :
+The maximum number.
+Sample test cases :
+Input :
+5 7 3
+Output :
+7
+Input :
+12 45 23
+Output :
+45
 
-8.Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
+****************************************************************************************
+Q8. Positive, Negative or Zero (Easy)
+Write a program that prompts the user to input a number. The program should then output the
+number and a message saying whether the number is positive, negative, or zero.
 Input format :
 The input consists of a number.
 Output format :
 The output prints whether the number is positive, negative or zero.
-
 Sample test cases :
-Input 1 :
+Input :
 5
-Output 1 :
+Output :
 5 is positive
-Input 2 :
+Input :
 -8
-Output 2 :
+Output :
 -8 is negative
-Input 3 :
+Input :
 0
-Output 3 :
+Output :
 0 is zero
 
-9.In a famous jewelry, customers are grouped according to age and gender.
-Group 1 Males under 25 years old
-Group 2 Females under 25 years old
-Group 3 Males between 25 - 45 years old
-Group 4 Females between 25 - 45 years old
-Group 5 All people over 45 years old.
-
-Babu wants to write a program to display the customer's group. Help Babu. 
-Note : Gender code for a male is 1 and for female is 2. Display Invalid if user enters other gender codes
+****************************************************************************************
+Q9. Customer Grouping (Medium)
+Customers are grouped according to age and gender.
+Group 1: Males under 25 years old
+Group 2: Females under 25 years old
+Group 3: Males between 25 - 45 years old
+Group 4: Females between 25 - 45 years old
+Group 5: All people over 45 years old.
+Note : Gender code for a male is 1 and for female is 2. Display Invalid if user enters other gender
+codes.
 Input format :
 Age in first line
 Gender code in second line
-
 Output format :
 Group number
-
 Sample test cases :
-Input 1 :
+Input :
 23
 1
-Output 1 :
+Output :
 Group 1
 
-
-10.Sanjay got promotion and now he is a manager in the SBI Credit card division. There are basic eligibility criteria required to apply for any SBI Credit Cards.
-
-The age of the primary applicant must be between 21 years to 60 years.
-The age of the add-on card applicant must be above 18 years.
-Must be either salaried, self-employed, student, or retired pensioner.
-Primary applicants should have a stable income (gross) of up to Rs.3 lakh per year.
-
-Accept required inputs from the user, Write a program to check if the person meets the bank’s eligibility criteria.
-
+****************************************************************************************
+Q10. SBI Credit Card Eligibility (Hard)
+Check eligibility for SBI Credit Cards based on criteria:
+- Primary applicant age: 21 to 60 years
+- Add-on card applicant age: above 18 years
+- Employment type: Salaried(1), Self-employed(2), Student(3), Retired pensioner(4)
+- Income: up to Rs.3 lakh per year
 Input format :
-First line of input is age of the primary applicant
-
-Second line of input is age of the add-on card applicant
-
-Third line of input is employment type code (1 for salaried, 2 self-employed,3 for student, and 4 for retired pensioner)
-
-Fourth line of input is income
-
+First line: Age of primary applicant
+Second line: Age of add-on card applicant
+Third line: Employment type code
+Fourth line: Income
 Output format :
-
-Eligible / Not Eligible as shown in sample output.
-
-Refer sample output for exact text and format
-
-Code constraints :
-21<=Age of the primary applicant <=60 years
-
-Age of the add-on card applicant>=18 years
-
-1<=Employee code <=4 (Salaried =1, Self-employed=2, Student=3, Retired pensioner=4)
-
- 
-
+Eligible / Not Eligible
 Sample test cases :
-Input 1 :
+Input :
 45
 20
 2
 300000
-Output 1 :
+Output :
 Yes. You are eligible for SBI credit cards
-Input 2 :
+Input :
 45
 15
 2
 300000
-Output 2 :
+Output :
 No. You are not eligible for SBI credit cards
 
-11.Kalyani Jewellers has planned to build a new showroom in Coimbatore city. They have selected the area to build the showroom and it is in a triangle shape. Ravi, a civil engineer from VIP construction is the in-charge of this project. Ragavan, founder of VIP construction asked Ravi to find the exact shape of the selected area. Help Ravi to find the exact triangle shape.
-Equilateral Triangle - If all sides are equal
-Isosceles Triangle - If any two sides equal
-Scalene Triangle - No sides are equal
+****************************************************************************************
+Q11. Triangle Shape (Easy)
+Check whether a triangle is Equilateral, Isosceles, or Scalene.
 Input format :
-Sides of the triangle in the separate lines
+Sides of the triangle in separate lines.
 Output format :
-The output prints the type of triangle.
-
+Type of triangle.
 Sample test cases :
-Input 1 :
+Input :
 18
 18
 18
-Output 1 :
+Output :
 Equilateral Triangle
-Input 2 :
+Input :
 12
 25
 15
-Output 2 :
+Output :
 Scalene Triangle
-Input 3 :
+Input :
 52
 52
 323
-Output 3 :
+Output :
 Isosceles Triangle
 
-12.Descending order of 4 numbers
-
-13.You are given a single character. Write a program that determines whether the character is an alphabet (letter), a digit, or a special character
-
-Sample input 1
-A
-Sample output 1
-alphabet
-
-14.Display even numbes between range inclusive of both start and end.
-
-15.Sum of even numbers between 1 to given number
-
-16.Write a program that takes the number N and finds the sum of odd and even numbers from 1 to N.
-
+****************************************************************************************
+Q12. Descending Order of 4 Numbers (Easy)
+Arrange four numbers in descending order.
 Input format :
-The input consists of the value of n.
-
+Four integers separated by spaces.
 Output format :
-The output prints the sum of odd numbers and the sum of even numbers separated by a space.
-
+Numbers in descending order.
 Sample test cases :
-Input 1 :
+Input :
+5 8 2 9
+Output :
+9 8 5 2
+
+****************************************************************************************
+Q13. Character Type (Easy)
+Determine whether the given character is an alphabet, a digit, or a special character.
+Input format :
+A single character.
+Output format :
+alphabet / digit / special
+Sample test cases :
+Input :
+A
+Output :
+alphabet
+Input :
+7
+Output :
+digit
+Input :
+@
+Output :
+special
+
+****************************************************************************************
+Q14. Even Numbers in Range (Easy)
+Display even numbers between a given range inclusive of both start and end.
+Input format :
+Two integers (start and end).
+Output format :
+Even numbers.
+Sample test cases :
+Input :
+1 10
+Output :
+2 4 6 8 10
+
+****************************************************************************************
+Q15. Sum of Even Numbers (Easy)
+Find the sum of even numbers between 1 and a given number.
+Input format :
+An integer.
+Output format :
+Sum of even numbers.
+Sample test cases :
+Input :
 10
-Output 1 :
+Output :
+30
+Input :
+7
+Output :
+12
+
+****************************************************************************************
+Q16. Sum of Odd and Even Numbers (Medium)
+Find the sum of odd and even numbers from 1 to N.
+Input format :
+An integer.
+Output format :
+Sum of odd numbers and sum of even numbers separated by a space.
+Sample test cases :
+Input :
+10
+Output :
 25 30
-Input 2 :
+Input :
 15
-Output 2 :
+Output :
 64 56
 
-17.Write a program to find the factorial of the given number.
-
+****************************************************************************************
+Q17. Factorial (Medium)
+Find the factorial of a number.
 Input format :
-The input consists of a number.
-
+An integer.
 Output format :
-The output prints the factorial of the given number.
-
+Factorial value.
 Sample test cases :
-Input 1 :
+Input :
 5
-Output 1 :
+Output :
 120
-Input 2 :
+Input :
 -7
-Output 2 :
+Output :
 Error! Factorial of a negative number doesn't exist.
 
-18.Print the digits of a given number from right to left
-
-19.Write a program to accept an integer range and print the sum of number that are divisible by either 3 or 5
-
-20.Count of the digits in number
-
-21.Sum of the digits in number
-
-22.Find whether the given number is Harshad Number
-
-Harshad Number : if the number is divisible by sum of digits of the number
-
-
-23.Perfect number or not
-
-24.Prime or not
-
-25.Perfect square or not
-
-26.Fibaonacci Series
-
-27.Sanjay, the Manager of "The Chennai silks" decided to give special Diwali gifts to their customers. He planned to give their different gifts to the customer based on age. Write a suitable program to count the number of customers in each category as per the below information.
-
-
-
- Age
-0-5 baby
-6-17 school
-18 above adult
-
+****************************************************************************************
+Q18. Print Digits Right to Left (Easy)
+Print digits of a given number from right to left.
 Input format :
-Number of person in first line(N).
-
-Age of each person(N) in second line.
-
+An integer.
 Output format :
-Category wise count as shown in the sample output.
-
-Code constraints :
-Age>=0
-
+Digits separated by space.
 Sample test cases :
-Input 1 :
+Input :
+1234
+Output :
+4 3 2 1
+
+****************************************************************************************
+Q19. Sum of Numbers Divisible by 3 or 5 (Medium)
+Accept an integer range and print the sum of numbers that are divisible by either 3 or 5.
+Input format :
+Two integers (start and end).
+Output format :
+Sum of numbers.
+Sample test cases :
+Input :
+1 10
+Output :
+33
+
+****************************************************************************************
+Q20. Count Digits (Easy)
+Count the number of digits in a number.
+Input format :
+An integer.
+Output format :
+Digit count.
+Sample test cases :
+Input :
+98765
+Output :
+5
+
+****************************************************************************************
+Q21. Sum of Digits (Easy)
+Find the sum of digits of a number.
+Input format :
+An integer.
+Output format :
+Sum of digits.
+Sample test cases :
+Input :
+123
+Output :
+6
+Input :
+405
+Output :
+9
+
+****************************************************************************************
+Q22. Harshad Number (Medium)
+Check whether the given number is a Harshad Number.
+(A Harshad Number is divisible by the sum of its digits.)
+Input format :
+An integer.
+Output format :
+Harshad / Not Harshad.
+Sample test cases :
+Input :
+18
+Output :
+Harshad Number
+Input :
+21
+Output :
+Not Harshad Number
+
+****************************************************************************************
+Q23. Perfect Number (Medium)
+Check whether a number is a Perfect Number.
+(A Perfect Number is equal to the sum of its proper divisors.)
+Input format :
+An integer.
+Output format :
+Perfect / Not Perfect.
+Sample test cases :
+Input :
+28
+Output :
+Perfect Number
+Input :
+12
+Output :
+Not Perfect Number
+
+****************************************************************************************
+Q24. Prime Number (Easy)
+Check whether a number is Prime.
+Input format :
+An integer.
+Output format :
+Prime / Not Prime.
+Sample test cases :
+Input :
+7
+Output :
+Prime
+Input :
+10
+Output :
+Not Prime
+
+****************************************************************************************
+Q25. Perfect Square (Easy)
+Check whether a number is a Perfect Square.
+Input format :
+An integer.
+Output format :
+Perfect Square / Not Perfect Square.
+Sample test cases :
+Input :
+25
+Output :
+Perfect Square
+Input :
+20
+Output :
+Not Perfect Square
+
+****************************************************************************************
+Q26. Fibonacci Series (Easy)
+Print Fibonacci Series up to N terms.
+Input format :
+An integer N.
+Output format :
+First N terms of Fibonacci series.
+Sample test cases :
+Input :
+5
+Output :
+0 1 1 2 3
+
+Input :
 15
 2 5 9 12 16 19 23 26 30 33 37 40 44 47 51
-Output 1 :
+Output :
 Baby: 2
 Attending school: 3
 Adult: 10
