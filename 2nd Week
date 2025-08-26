@@ -1,0 +1,138 @@
+
+Q1: Print Digits (Right to Left) [Easy]
+- Input: 1234
+Output: 4 3 2 1
+- Input: 1001
+Output: 1 0 0 1
+*************************************************************
+Q2: Print Digits (Left to Right) [Easy]
+- Input: 1234
+Output: 1 2 3 4
+- Input: 201
+Output: 2 0 1
+
+*************************************************************
+Q3: Count Digits [Easy]
+- Input: 98765
+Output: 5
+- Input: 123456789
+Output: 9
+
+*************************************************************
+Q4: Sum of Digits [Easy]
+- Input: 123
+Output: 6
+- Input: 405
+Output: 9
+
+*************************************************************
+Q5: Armstrong Number [Medium]
+- Input: 153
+Output: Armstrong Number
+- Input: 370
+Output: Armstrong Number
+
+*************************************************************
+Q6: Collatz Sequence [Medium]
+- Input: 26
+Output: 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
+- Input: 5
+Output: 5, 16, 8, 4, 2, 1
+
+*************************************************************
+Q7: Harshad / Niven Number [Medium]
+- Input: 18
+Output: Harshad Number
+- Input: 21
+Output: Not Harshad Number
+
+*************************************************************
+Q8: Spy Number [Medium]
+- Input: 1124
+Output: Spy Number
+- Input: 123
+Output: Not Spy Number
+
+*************************************************************
+Q9: Neon Number [Medium]
+- Input: 9
+Output: Neon Number
+- Input: 1
+Output: Neon Number
+
+*************************************************************
+Q10: Reverse a Number [Easy]
+- Input: 1234
+Output: 4321
+- Input: 560
+Output: 65
+
+*************************************************************
+Q11: Palindrome Number [Easy]
+- Input: 121
+Output: Palindrome
+- Input: 12321
+Output: Palindrome
+
+*************************************************************
+Q12: Strong Number [Hard]
+- Input: 145
+Output: Strong Number
+- Input: 2
+Output: Strong Number
+
+*************************************************************
+Q13: Magic Number [Hard]
+- Input: 1729
+Output: Magic Number
+- Input: 19
+Output: Not Magic Number
+
+*************************************************************
+Q14: Center Digit of a Number [Easy]
+- Input: 12345
+Output: 3
+- Input: 1234
+Output: -1
+
+*************************************************************
+Q15: Frequency of Digits [Medium]
+- Input: 112233
+Output: 1→2, 2→2, 3→2
+- Input: 1002003
+Output: 0→3, 1→1, 2→1, 3→1
+
+*************************************************************
+Q16: GCD (Euclidean Algorithm) [Medium]
+- Input: 48 18
+Output: 6
+- Input: 24 36
+Output: 12
+
+*************************************************************
+Q17: Swap First and Last Digit [Medium]
+- Input: 12345
+Output: 52341
+- Input: 708
+Output: 807
+
+*************************************************************
+Q18: First / Last Occurrence of a Digit [Medium]
+- Input: 153553, Digit=5
+Output: First=2, Last=5
+- Input: 123212, Digit=2
+Output: First=2, Last=6
+
+*************************************************************
+Q19: Product of Digits [Easy]
+- Input: 123
+Output: 6
+- Input: 405
+Output: 0
+
+*************************************************************
+Q20: Sum of Even Digits [Easy]
+- Input: 123456
+Output: 12
+- Input: 789
+Output: 8
