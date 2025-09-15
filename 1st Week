@@ -457,6 +457,10 @@ Input :
 5
 Output :
 0 1 1 2 3
+Q 27 get set of age in array input and Count as following
+Baby: Age less than or equal 5
+Attending school: Age less than or equal 20
+Adult: remaining all
 
 Input :
 15
