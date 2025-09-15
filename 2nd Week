@@ -27,6 +27,9 @@ Output: 9
 
 *************************************************************
 Q5: Armstrong Number [Medium]
+
+An Armstrong number is a number that equals the sum of its own digits, each raised to the power of the total number of digits in the number.
+153=1^3+5^3+3^3=153
 - Input: 153
 Output: Armstrong Number
 - Input: 370
@@ -34,6 +37,8 @@ Output: Armstrong Number
 
 *************************************************************
 Q6: Collatz Sequence [Medium]
+
+A Collatz sequence starts with any positive integer and applies a simple rule: if the number is even, divide it by 2; if it's odd, multiply it by 3 and add 1. The process is then repeated with the resulting number as 1
 - Input: 26
 Output: 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
 - Input: 5
@@ -41,6 +46,10 @@ Output: 5, 16, 8, 4, 2, 1
 
 *************************************************************
 Q7: Harshad / Niven Number [Medium]
+A Harshad number (or Niven number) is a positive integer that is divisible by the sum of its own digits, with no remainder.
+Ex:
+18=1+8=9
+18 is divided by 9,hence harshad num.
 - Input: 18
 Output: Harshad Number
 - Input: 21
@@ -48,6 +57,9 @@ Output: Not Harshad Number
 
 *************************************************************
 Q8: Spy Number [Medium]
+
+A spy number is a number in which the sum of its digits is equal to the product of its digits
+
 - Input: 1124
 Output: Spy Number
 - Input: 123
@@ -55,7 +67,12 @@ Output: Not Spy Number
 
 *************************************************************
 Q9: Neon Number [Medium]
-- Input: 9
+
+A neon number is a number whose digits, when added together after being squared, result in the original number itself.- 
+9=Square of 9 =81---->
+8+1=9;
+
+Input: 9
 Output: Neon Number
 - Input: 1
 Output: Neon Number
@@ -76,6 +93,8 @@ Output: Palindrome
 
 *************************************************************
 Q12: Strong Number [Hard]
+A strong number is a positive integer for which the sum of the factorials of its individual digits equals the original number itself. For example, 145 is a strong number because 1! + 4! + 5! equals 1 + 24 + 120, which sums to 145. 
+
 - Input: 145
 Output: Strong Number
 - Input: 2
@@ -83,6 +102,8 @@ Output: Strong Number
 
 *************************************************************
 Q13: Magic Number [Hard]
+A magic number can also refer to the recursive sum of its digits equaling one.
+For example, the number 19: 1+9 = 10; 1+0 = 1
 - Input: 1729
 Output: Magic Number
 - Input: 19
